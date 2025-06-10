@@ -138,10 +138,3 @@ Performance on required datasets:
 ✅ **Required Datasets**: All four datasets (a280, xql662, kz9976, monalisa)  
 ✅ **Performance Analysis**: Runtime, accuracy, and theoretical complexity  
 ✅ **Report**: Comprehensive analysis in academic format  
-
-## 🔗 Repository
-
-**Public Repository**: [Add your GitHub link here]
-
----
-*CSE331 Assignment #2 - Traveling Salesman Problem Solver*
