@@ -1,0 +1,46 @@
+CSE331 Assignment #2 - TSP Solver Comparison Report
+=======================================================
+
+Datasets tested: xql662, kz9976, monalisa
+Algorithms compared: mst, utsp
+
+
+xql662 Results:
+--------------------
+Number of cities: 662
+       mst: Cost=   3484.32, Time=  0.9544s
+      utsp: Cost=   3329.86, Time=  0.0500s
+
+kz9976 Results:
+--------------------
+Number of cities: 0
+       mst: SKIPPED/FAILED
+      utsp: SKIPPED/FAILED
+
+monalisa Results:
+--------------------
+Number of cities: 0
+       mst: SKIPPED/FAILED
+      utsp: SKIPPED/FAILED
+
+
+Algorithm Analysis:
+--------------------
+MST 2-Approximation:
+  - Time Complexity: O(n²)
+  - Approximation Ratio: ≤ 2
+  - Pros: Fast, guaranteed approximation
+  - Cons: Not optimal
+
+Held-Karp Dynamic Programming:
+  - Time Complexity: O(n²2ⁿ)
+  - Approximation Ratio: Optimal
+  - Pros: Exact solution
+  - Cons: Exponential time, memory intensive
+
+UTSP Variant (Novel Algorithm):
+  - Time Complexity: O(n³)
+  - Approximation Ratio: Heuristic
+  - Pros: Heat-map guided selection
+  - Cons: No theoretical guarantees
+
