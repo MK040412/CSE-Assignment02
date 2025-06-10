@@ -1,27 +1,15 @@
 CSE331 Assignment #2 - TSP Solver Comparison Report
 =======================================================
 
-Datasets tested: xql662, kz9976, monalisa
+Datasets tested: a280
 Algorithms compared: mst, utsp
 
 
-xql662 Results:
+a280 Results:
 --------------------
-Number of cities: 662
-       mst: Cost=   3484.32, Time=  0.9544s
-      utsp: Cost=   3329.86, Time=  0.0500s
-
-kz9976 Results:
---------------------
-Number of cities: 0
-       mst: SKIPPED/FAILED
-      utsp: SKIPPED/FAILED
-
-monalisa Results:
---------------------
-Number of cities: 0
-       mst: SKIPPED/FAILED
-      utsp: SKIPPED/FAILED
+Number of cities: 280
+       mst: Cost=   3555.81, Time=  0.1760s
+      utsp: Cost=   3827.16, Time=  0.0180s
 
 
 Algorithm Analysis:
