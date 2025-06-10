@@ -1,32 +1,8 @@
-# Python
 __pycache__/
 *.py[cod]
-*.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env_isaaclab/
-
-# Data files (너무 크니까 제외)
 data/*.tsp
 data/*.gz
-
-# Results
 results/
 figures/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
 *.log
-nohup.out
+env_isaaclab/
