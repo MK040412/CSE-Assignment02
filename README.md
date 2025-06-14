@@ -74,20 +74,6 @@ Key findings from our experiments:
 
 See `results/assignment_report.md` for detailed analysis.
 
-## 🔬 Performance Analysis
-
-### Complexity Comparison
-| Algorithm | Time | Space | Scalability |
-|-----------|------|-------|-------------|
-| MST 2-Approx | O(n² log n) | O(n²) | Good |
-| Held-Karp | O(n² 2ⁿ) | O(n 2ⁿ) | Poor |
-| Learning UTSP | O(n³ × episodes) | O(n²) | Moderate |
-
-### Runtime Performance  
-- MST: Handles all datasets efficiently
-- Held-Karp: Limited to small instances (n ≤ 20)
-- Learning UTSP: Scales to large instances with learning overhead
-
 ## 📋 Implementation Details
 
 ### MST 2-Approximation
