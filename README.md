@@ -92,19 +92,6 @@ See `results/assignment_report.md` for detailed analysis.
 - Temperature annealing schedule
 - Episode-based learning
 
-## 🎯 Results Summary
-
-Performance on required datasets:
-
-| Dataset | Cities | MST Cost | Held-Karp | Learning UTSP |
-|---------|--------|----------|-----------|---------------|
-| a280 | 280 | ~5000 | SKIPPED | ~4800 |
-| xql662 | 662 | ~8000 | SKIPPED | ~7500 |
-| kz9976 | 9976 | ~1.2M | SKIPPED | ~1.1M |
-| monalisa | 100K | ~6M | SKIPPED | ~5.8M |
-
-*Note: Exact values depend on implementation details and random seeds*
-
 ## 🏆 Key Contributions
 
 1. **Successful Implementation**: All required algorithms implemented from scratch
