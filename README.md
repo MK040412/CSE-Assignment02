@@ -1,8 +1,3 @@
-# CSE331 Assignment #2: TSP Solver
-
-**Student:** [Your Name]  
-**Course:** CSE331 (2025)  
-**Assignment:** Traveling Salesman Problem Solver
 
 ## 🎯 Assignment Overview
 
